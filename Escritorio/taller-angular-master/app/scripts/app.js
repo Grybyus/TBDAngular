@@ -13,14 +13,20 @@
             templateUrl: 'views/about.html',
             controller: 'AboutCtrl'
           })
+        .when('/actors/:id', {
+            templateUrl: 'views/showActor.html',
+            controller: 'showActorCtrl'
+        })
         .when('/actors', {
             templateUrl: 'views/actors.html',
             controller: 'actorsCtrl'
           })
-        .when('/showActor', {
+        
+          
+        /*.when('/showActor', {
             templateUrl: 'views/showActor.html',
             controller: 'showActorCtrl'
-          })
+          })*/
         .otherwise({
             redirectTo: '/home'
           });
