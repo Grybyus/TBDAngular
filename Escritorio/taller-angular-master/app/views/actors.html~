@@ -1,0 +1,6 @@
+<table>
+<input type="submit" value="Destruir al Raúl." />
+</table>
+<ul ng-repeat="a in actors">
+	<li>{{a.firstName}} {{a.lastName}}</li>
+</ul>
