@@ -18,3 +18,15 @@ body {
   .logo:hover {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); }
+
+.atras {
+  transition: 1000ms ease; }
+  .atras:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1); }
+
+.actor {
+  transition: 500ms ease; }
+  .actor:hover {
+    -webkit-transform: scale(1.01, 1.01);
+    transform: scale(1.01, 1.01); }

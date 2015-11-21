@@ -18,3 +18,15 @@ body{
         transform: rotate(360deg);
     }
 }
+.atras{
+    transition: 1000ms ease;
+    &:hover{
+        transform: scale(1.1,1.1);
+    }
+}
+.actor{
+    transition: 500ms ease;
+    &:hover{
+        transform: scale(1.01,1.01);
+    }
+}
